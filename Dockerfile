@@ -19,5 +19,3 @@ RUN apk update && \
     apk del build-dependencies
 
 COPY . ./
-
-CMD ["rails", "server", "-b", "0.0.0.0"]
